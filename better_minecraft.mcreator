@@ -1110,6 +1110,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "ActiniumBossLt",
+      "type": "loottable",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_boss_lt"
+    },
+    {
+      "name": "ReinforcedActiniumPickaxe",
+      "type": "tool",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_actinium_pickaxe"
+    },
+    {
+      "name": "ActiniumElytra",
+      "type": "armor",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_elytra",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [
@@ -1148,6 +1178,7 @@
   "language_map": {
     "en_us": {
       "item.better_minecraft.invisible": "Invisible",
+      "item.better_minecraft.actinium_elytra_leggings": "Actinium Elytra Leggings",
       "item.better_minecraft.actinium_boss_spawn_egg": "Actinium Ghost Spawn Egg",
       "block.better_minecraft.alunit_zombie_boss_block": "Alunit Zombie Boss Block",
       "item.better_minecraft.actinium": "Actinium Ingot",
@@ -1157,10 +1188,12 @@
       "item.better_minecraft.alunit_bullet": "Alunit Bullet",
       "item.better_minecraft.actinium_axe": "Actinium Axe",
       "item.better_minecraft.alunit_sword": "Alunit Sword",
+      "item.better_minecraft.actinium_elytra_boots": "Actinium Elytra Boots",
       "block.better_minecraft.alunit_altar": "Alunit Altar",
       "item.better_minecraft.actinium_sword": "Actinium Sword",
-      "item.better_minecraft.alunit_axe": "Alunit Axe",
       "block.better_minecraft.alunit_block": "Block of Alunit",
+      "item.better_minecraft.alunit_axe": "Alunit Axe",
+      "item.better_minecraft.reinforced_actinium_pickaxe": "Reinforced Actinium Pickaxe",
       "item.better_minecraft.actinium_pickaxe": "Actinium Pickaxe",
       "item.better_minecraft.mythical_alunit_lands": "Alunit Igniter",
       "item.minecraft.lingering_potion.effect.inventory_save": "Lingering Potion of Inventory Save",
@@ -1168,6 +1201,7 @@
       "item.better_minecraft.alunit_sledgehammer": "Alunit Sledgehammer",
       "item.better_minecraft.actinium_arrow": "Actinium Arrow",
       "item.better_minecraft.actinium_shortbow": "Actinium Shortbow",
+      "item.better_minecraft.actinium_elytra_chestplate": "Actinium Elytra",
       "item.better_minecraft.alunit_armor_boots": "Alunit Boots",
       "advancements.alunit_zombie_boss.title": "It wasn\u0027t that hard, was it?",
       "item.better_minecraft.actinium_pearl": "Actinium Pearl",
@@ -1204,6 +1238,7 @@
       "item.better_minecraft.mysterious_brewing_item": "Mysterious Brewing Item",
       "advancements.mythical_alunit_lands_advancement.title": "Wait, there is another dimension?",
       "item.better_minecraft.actinium_armor_boots": "Actinium Boots",
+      "item.better_minecraft.actinium_elytra_helmet": "Actinium Elytra Helmet",
       "item.better_minecraft.invis_projectile": "Invis Projectile",
       "item.better_minecraft.alunit_pickaxe": "Alunit Pickaxe",
       "item.better_minecraft.actinium_armor_leggings": "Actinium Leggings",

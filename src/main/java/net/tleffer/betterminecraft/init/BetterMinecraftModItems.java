@@ -5,6 +5,7 @@
 package net.tleffer.betterminecraft.init;
 
 import net.tleffer.betterminecraft.item.ReinforcedAlunitPickaxeItem;
+import net.tleffer.betterminecraft.item.ReinforcedActiniumPickaxeItem;
 import net.tleffer.betterminecraft.item.RawActiniumItem;
 import net.tleffer.betterminecraft.item.MythicalAlunitLandsItem;
 import net.tleffer.betterminecraft.item.MysteriousBrewingItemItem;
@@ -26,6 +27,7 @@ import net.tleffer.betterminecraft.item.ActiniumShortbowItem;
 import net.tleffer.betterminecraft.item.ActiniumPickaxeItem;
 import net.tleffer.betterminecraft.item.ActiniumPearlItem;
 import net.tleffer.betterminecraft.item.ActiniumItem;
+import net.tleffer.betterminecraft.item.ActiniumElytraItem;
 import net.tleffer.betterminecraft.item.ActiniumBossRangedItemItem;
 import net.tleffer.betterminecraft.item.ActiniumAxeItem;
 import net.tleffer.betterminecraft.item.ActiniumArrowItem;
@@ -95,6 +97,8 @@ public class BetterMinecraftModItems {
 					.setRegistryName("actinium_boss_spawn_egg"));
 	public static final Item ACTINIUM_BOSS_RANGED_ITEM = register(new ActiniumBossRangedItemItem());
 	public static final Item ACTINIUM_PEARL = register(new ActiniumPearlItem());
+	public static final Item REINFORCED_ACTINIUM_PICKAXE = register(new ReinforcedActiniumPickaxeItem());
+	public static final Item ACTINIUM_ELYTRA_CHESTPLATE = register(new ActiniumElytraItem.Chestplate());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
