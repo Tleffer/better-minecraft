@@ -1,0 +1,39 @@
+{
+  "_fv": 25,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "actinium_shortbow",
+    "customModelName": "Normal",
+    "name": "Actinium Shortbow",
+    "specialInfo": [
+      "§2Uses Actinium Arrows"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:ActiniumArrow"
+    },
+    "shootConstantly": true,
+    "usageCount": 3126,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:ActiniumBlock"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

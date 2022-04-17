@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "better_minecraft:actinium"
+    },
+    {
+      "item": "better_minecraft:actinium"
+    },
+    {
+      "item": "better_minecraft:actinium"
+    },
+    {
+      "item": "better_minecraft:actinium"
+    },
+    {
+      "item": "better_minecraft:actinium"
+    },
+    {
+      "item": "better_minecraft:actinium"
+    },
+    {
+      "item": "better_minecraft:actinium"
+    },
+    {
+      "item": "better_minecraft:actinium"
+    },
+    {
+      "item": "better_minecraft:actinium"
+    }
+  ],
+  "result": {
+    "item": "better_minecraft:actinium_block",
+    "count": 1
+  }
+}

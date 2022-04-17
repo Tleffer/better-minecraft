@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "better_minecraft:blocks/oak_log_top",
+    "up": "better_minecraft:blocks/oak_log_top",
+    "north": "better_minecraft:blocks/oak_log",
+    "east": "better_minecraft:blocks/oak_log",
+    "south": "better_minecraft:blocks/oak_log",
+    "west": "better_minecraft:blocks/oak_log",
+    "particle": "better_minecraft:blocks/oak_log_top"
+  }
+}

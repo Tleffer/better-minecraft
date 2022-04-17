@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "better_minecraft:blocks/actinium_ore",
+    "up": "better_minecraft:blocks/actinium_ore",
+    "north": "better_minecraft:blocks/actinium_ore",
+    "east": "better_minecraft:blocks/actinium_ore",
+    "south": "better_minecraft:blocks/actinium_ore",
+    "west": "better_minecraft:blocks/actinium_ore",
+    "particle": "better_minecraft:blocks/actinium_ore"
+  }
+}

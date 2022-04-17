@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "better_minecraft:blocks/alunit_altar_bottom",
+    "top": "better_minecraft:blocks/alunit_altar_top",
+    "side": "better_minecraft:blocks/alunit_altar_side"
+  }
+}

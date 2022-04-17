@@ -1,0 +1,25 @@
+{
+  "_fv": 25,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "It wasn't that hard, was it?",
+    "achievementDescription": "Kill the Alunit Zombie Boss and obtain the Alunit Key",
+    "achievementIcon": {
+      "value": "CUSTOM:AlunitKey"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 2000,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:MythicalAlunitLandsAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"42\" y=\"16\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:AlunitKey</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

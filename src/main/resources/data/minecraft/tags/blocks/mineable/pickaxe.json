@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "better_minecraft:mysterious_nether_block",
+    "better_minecraft:alunit_ore",
+    "better_minecraft:alunit_block",
+    "better_minecraft:alunit_enriched_stone",
+    "better_minecraft:actinium_ore",
+    "better_minecraft:actinium_block"
+  ]
+}

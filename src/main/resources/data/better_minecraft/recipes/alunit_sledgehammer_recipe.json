@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "better_minecraft:alunit"
+    },
+    "1": {
+      "item": "better_minecraft:alunit_ingot"
+    },
+    "2": {
+      "item": "better_minecraft:alunit_block"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "better_minecraft:alunit"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "better_minecraft:alunit_sledgehammer",
+    "count": 1
+  }
+}

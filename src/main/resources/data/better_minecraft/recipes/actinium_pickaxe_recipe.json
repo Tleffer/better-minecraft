@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "better_minecraft:actinium"
+    },
+    "1": {
+      "item": "better_minecraft:actinium_block"
+    },
+    "2": {
+      "item": "better_minecraft:actinium"
+    },
+    "4": {
+      "item": "better_minecraft:alunit_ingot"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "better_minecraft:actinium_pickaxe",
+    "count": 1
+  }
+}

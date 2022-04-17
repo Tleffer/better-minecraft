@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "better_minecraft:alunit"
+    },
+    {
+      "item": "better_minecraft:alunit"
+    },
+    {
+      "item": "better_minecraft:alunit"
+    },
+    {
+      "item": "better_minecraft:alunit"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "result": {
+    "item": "better_minecraft:alunit_ingot",
+    "count": 1
+  }
+}

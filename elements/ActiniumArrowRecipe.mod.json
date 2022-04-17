@@ -1,0 +1,46 @@
+{
+  "_fv": 25,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 8,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "CUSTOM:Actinium"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "Items.ARROW"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ActiniumArrow"
+    },
+    "name": "actinium_arrow_recipe",
+    "namespace": "mod"
+  }
+}

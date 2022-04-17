@@ -1,0 +1,70 @@
+{
+  "_fv": 25,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "actinium_helmet",
+    "enableBody": true,
+    "textureBody": "actinium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "actinium_leggings",
+    "enableBoots": true,
+    "textureBoots": "actinium_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "actinium_armor_",
+    "helmetName": "Actinium Helmet",
+    "bodyName": "Actinium Chestplate",
+    "leggingsName": "Actinium Leggings",
+    "bootsName": "Actinium Boots",
+    "helmetSpecialInfo": [
+      "§eImmune to Radiation when worn in a full set"
+    ],
+    "bodySpecialInfo": [
+      "§eImmune to Radiation when worn in a full set"
+    ],
+    "leggingsSpecialInfo": [
+      "§eImmune to Radiation when worn in a full set"
+    ],
+    "bootsSpecialInfo": [
+      "§eImmune to Radiation when worn in a full set"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 51,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 25,
+    "toughness": 6.0,
+    "knockbackResistance": 0.30000000000000004,
+    "equipSound": {
+      "value": "block.netherite_block.break"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Actinium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="better_minecraft"
+version="1.0.0"
+displayName="Better Minecraft"
+credits="Better Minecraft - Tleffer, NeviKannsHalt"
+displayURL="https://curseforge.net"
+authors="Tleffer, NeviKannsHalt"
+description='''
+Makes Minecraft better and adds a lot of endgame content.
+'''
+
+[[dependencies.better_minecraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

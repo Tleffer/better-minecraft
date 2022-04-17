@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "better_minecraft:alunit_ingot"
+    },
+    "1": {
+      "item": "minecraft:blaze_powder"
+    },
+    "2": {
+      "item": "better_minecraft:alunit_ingot"
+    },
+    "3": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "better_minecraft:alunit_block"
+    },
+    "5": {
+      "item": "minecraft:blaze_powder"
+    },
+    "6": {
+      "item": "better_minecraft:alunit_ingot"
+    },
+    "7": {
+      "item": "minecraft:blaze_powder"
+    },
+    "8": {
+      "item": "better_minecraft:alunit_ingot"
+    }
+  },
+  "result": {
+    "item": "better_minecraft:mysterious_brewing_item",
+    "count": 2
+  }
+}

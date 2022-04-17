@@ -1,0 +1,23 @@
+{
+  "_fv": 25,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:AWKWARD"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:MysteriousBrewingItem"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:InventorySave"
+    },
+    "name": "keep_inv_potion_recipe",
+    "namespace": "mod"
+  }
+}

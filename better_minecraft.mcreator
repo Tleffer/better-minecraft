@@ -1,0 +1,1237 @@
+{
+  "mod_elements": [
+    {
+      "name": "Postenderdragon",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "postenderdragon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MysteriousNetherBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_nether_block"
+    },
+    {
+      "name": "Alunit",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit"
+    },
+    {
+      "name": "AlunitOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_ore"
+    },
+    {
+      "name": "AlunitOrelt",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_orelt"
+    },
+    {
+      "name": "AlunitBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_block"
+    },
+    {
+      "name": "AlunitBlockRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_block_recipe"
+    },
+    {
+      "name": "AlunitBlockRecipeBack",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_block_recipe_back"
+    },
+    {
+      "name": "AlunitSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alunit_sword"
+    },
+    {
+      "name": "AlunitScythe",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_scythe"
+    },
+    {
+      "name": "AlunitSwordRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_sword_recipe"
+    },
+    {
+      "name": "AlunitScytheRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_scythe_recipe"
+    },
+    {
+      "name": "Invisible",
+      "type": "rangeditem",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible"
+    },
+    {
+      "name": "RangedAlunitSwordSwingItem",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranged_alunit_sword_swing_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InvisibleProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlunitBullet",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_bullet"
+    },
+    {
+      "name": "AlunitBulletRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_bullet_recipe"
+    },
+    {
+      "name": "AlunitIngot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_ingot"
+    },
+    {
+      "name": "AlunitArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AlunitHelmetRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_helmet_recipe"
+    },
+    {
+      "name": "AlunitChestplateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_chestplate_recipe"
+    },
+    {
+      "name": "AlunitLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_leggings_recipe"
+    },
+    {
+      "name": "AlunitBootsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_boots_recipe"
+    },
+    {
+      "name": "AlunitPickaxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_pickaxe"
+    },
+    {
+      "name": "AlunitBarRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_bar_recipe"
+    },
+    {
+      "name": "AlunitAxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_axe"
+    },
+    {
+      "name": "AlunitPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_pickaxe_recipe"
+    },
+    {
+      "name": "AlunitAxeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_axe_recipe"
+    },
+    {
+      "name": "AlunitEnrichedStone",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_enriched_stone"
+    },
+    {
+      "name": "AlunitHighLands",
+      "type": "biome",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_high_lands"
+    },
+    {
+      "name": "AlunitOakLog",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_oak_log"
+    },
+    {
+      "name": "MythicalAlunitLands",
+      "type": "dimension",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythical_alunit_lands",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "AlunitZombie",
+      "type": "livingentity",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_zombie"
+    },
+    {
+      "name": "Logs",
+      "type": "tag",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs"
+    },
+    {
+      "name": "AlunitOakRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_oak_recipe"
+    },
+    {
+      "name": "AlunitKey",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_key"
+    },
+    {
+      "name": "InvisProjectile",
+      "type": "rangeditem",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invis_projectile"
+    },
+    {
+      "name": "AlunitZombieBossAir",
+      "type": "structure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_zombie_boss_air"
+    },
+    {
+      "name": "AlunitZombieBossBlock",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_zombie_boss_block"
+    },
+    {
+      "name": "AlunitZombieBossGenerate",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_zombie_boss_generate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlunitZombieBossBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_zombie_boss_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MythicalAlunitLandsAdvancement",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythical_alunit_lands_advancement"
+    },
+    {
+      "name": "AlunitZombieBoss",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_zombie_boss"
+    },
+    {
+      "name": "AlunitAltar",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_altar"
+    },
+    {
+      "name": "AlunitAltarGUI",
+      "type": "gui",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_altar_gui"
+    },
+    {
+      "name": "AlunitAltarGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_altar_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrueAlunitBossAdv",
+      "type": "achievement",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_alunit_boss_adv"
+    },
+    {
+      "name": "AlunitDungeonBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_dungeon_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlunitDungeonBlock",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_dungeon_block"
+    },
+    {
+      "name": "AlunitDungeonAirOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_dungeon_air_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlunitDungeonAir",
+      "type": "structure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_dungeon_air"
+    },
+    {
+      "name": "TrueAlunitMaster",
+      "type": "livingentity",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_alunit_master"
+    },
+    {
+      "name": "TrueAlunitMasterThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_alunit_master_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrueAlunitMasterEntityDies",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_alunit_master_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlunitAltarUpdateTick",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_altar_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhenPlayerJoins",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_player_joins",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Actinium",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium"
+    },
+    {
+      "name": "AlunitIgnitorRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_ignitor_recipe"
+    },
+    {
+      "name": "KeepInvEffect",
+      "type": "potioneffect",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_inv_effect"
+    },
+    {
+      "name": "InventorySave",
+      "type": "potion",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory_save"
+    },
+    {
+      "name": "KeepInvPotionRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_inv_potion_recipe"
+    },
+    {
+      "name": "PlayerTick",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeepInvEffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_inv_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MysteriousBrewingItem",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_brewing_item"
+    },
+    {
+      "name": "MysteriousBrewingItemRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_brewing_item_recipe"
+    },
+    {
+      "name": "ActiniumOre",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_ore"
+    },
+    {
+      "name": "TrueAlunitMasterLt",
+      "type": "loottable",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_alunit_master_lt"
+    },
+    {
+      "name": "RawActinium",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_actinium"
+    },
+    {
+      "name": "ActiniumOreLt",
+      "type": "loottable",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_ore_lt"
+    },
+    {
+      "name": "ActiniumRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_recipe"
+    },
+    {
+      "name": "ActiniumRecipeBlast",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_recipe_blast"
+    },
+    {
+      "name": "ActiniumPickaxe",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_pickaxe"
+    },
+    {
+      "name": "ActiniumBlock",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_block"
+    },
+    {
+      "name": "ActiniumBlockRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_block_recipe"
+    },
+    {
+      "name": "ActiniumBlockRecipeBack",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_block_recipe_back"
+    },
+    {
+      "name": "ActiniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_pickaxe_recipe"
+    },
+    {
+      "name": "ActiniumArrow",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_arrow"
+    },
+    {
+      "name": "ActiniumArrowRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_arrow_recipe"
+    },
+    {
+      "name": "ActiniumShortbow",
+      "type": "rangeditem",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_shortbow"
+    },
+    {
+      "name": "ActiniumShortbowRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_shortbow_recipe"
+    },
+    {
+      "name": "ImpureActiniumIngot",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_actinium_ingot"
+    },
+    {
+      "name": "AlunitSledgehammer",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_sledgehammer"
+    },
+    {
+      "name": "Actiniumpurification",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actiniumpurification"
+    },
+    {
+      "name": "AlunitSledgehammerRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alunit_sledgehammer_recipe"
+    },
+    {
+      "name": "ActiniumSword",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_sword"
+    },
+    {
+      "name": "ActiniumArmor",
+      "type": "armor",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ActiniumHelmetRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_helmet_recipe"
+    },
+    {
+      "name": "ActiniumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_chestplate_recipe"
+    },
+    {
+      "name": "ActiniumLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_leggings_recipe"
+    },
+    {
+      "name": "ActiniumBootsRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_boots_recipe"
+    },
+    {
+      "name": "Radiation",
+      "type": "potioneffect",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation"
+    },
+    {
+      "name": "RadiationOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ActiniumAxe",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_axe"
+    },
+    {
+      "name": "ReinforcedAlunitPickaxe",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_alunit_pickaxe"
+    },
+    {
+      "name": "ActiniumBoss",
+      "type": "livingentity",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_boss"
+    },
+    {
+      "name": "ActiniumBossRangedItem",
+      "type": "rangeditem",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_boss_ranged_item"
+    },
+    {
+      "name": "ActiniumBossRangedItemProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_boss_ranged_item_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ActiniumPearl",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_pearl"
+    },
+    {
+      "name": "ActiniumPearlItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_pearl_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "is_ed_defeat",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "hit",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "hitfalse",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "is_fighting_true_alunit_master",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "radiation_timer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.better_minecraft.invisible": "Invisible",
+      "item.better_minecraft.actinium_boss_spawn_egg": "Actinium Ghost Spawn Egg",
+      "block.better_minecraft.alunit_zombie_boss_block": "Alunit Zombie Boss Block",
+      "item.better_minecraft.actinium": "Actinium Ingot",
+      "item.better_minecraft.impure_actinium_ingot": "Impure Actinium Ingot",
+      "entity.better_minecraft.alunit_zombie": "Alunit Zombie",
+      "entity.better_minecraft.true_alunit_master": "True Alunit Master",
+      "item.better_minecraft.alunit_bullet": "Alunit Bullet",
+      "item.better_minecraft.actinium_axe": "Actinium Axe",
+      "item.better_minecraft.alunit_sword": "Alunit Sword",
+      "block.better_minecraft.alunit_altar": "Alunit Altar",
+      "item.better_minecraft.actinium_sword": "Actinium Sword",
+      "item.better_minecraft.alunit_axe": "Alunit Axe",
+      "block.better_minecraft.alunit_block": "Block of Alunit",
+      "item.better_minecraft.actinium_pickaxe": "Actinium Pickaxe",
+      "item.better_minecraft.mythical_alunit_lands": "Alunit Igniter",
+      "item.minecraft.lingering_potion.effect.inventory_save": "Lingering Potion of Inventory Save",
+      "item.better_minecraft.alunit_key": "Alunit Key",
+      "item.better_minecraft.alunit_sledgehammer": "Alunit Sledgehammer",
+      "item.better_minecraft.actinium_arrow": "Actinium Arrow",
+      "item.better_minecraft.actinium_shortbow": "Actinium Shortbow",
+      "item.better_minecraft.alunit_armor_boots": "Alunit Boots",
+      "advancements.alunit_zombie_boss.title": "It wasn\u0027t that hard, was it?",
+      "item.better_minecraft.actinium_pearl": "Actinium Pearl",
+      "biome.better_minecraft.alunit_high_lands": "Alunit High Lands",
+      "item.minecraft.tipped_arrow.effect.inventory_save": "Arrow of Inventory Save",
+      "item.better_minecraft.raw_actinium": "Raw Actinium",
+      "advancements.mythical_alunit_lands_advancement.descr": "Enter the Mythical Alunit Lands",
+      "block.better_minecraft.mysterious_nether_block": "Mysterious Nether Block",
+      "item.better_minecraft.alunit_zombie_spawn_egg": "Alunit Zombie Spawn Egg",
+      "item.minecraft.splash_potion.effect.inventory_save": "Splash Potion of Inventory Save",
+      "advancements.true_alunit_boss_adv.descr": "Spawn the True Alunit Master",
+      "block.better_minecraft.alunit_oak_log": "Alunit Oak Log",
+      "block.better_minecraft.actinium_block": "Block of Actinium",
+      "item.better_minecraft.alunit_ingot": "Alunit Ingot",
+      "item.better_minecraft.alunit_armor_chestplate": "Alunit Chestplate",
+      "advancements.true_alunit_boss_adv.title": "Now this will be hard",
+      "advancements.alunit_zombie_boss.descr": "Kill the Alunit Zombie Boss and obtain the Alunit Key",
+      "item.better_minecraft.alunit_scythe": "Alunit Scythe",
+      "block.better_minecraft.alunit_ore": "Alunit Ore",
+      "effect.better_minecraft.radiation": "Radiation",
+      "item.better_minecraft.true_alunit_master_spawn_egg": "True Alunit Master Spawn Egg",
+      "block.better_minecraft.actinium_ore": "Actinium Ore",
+      "effect.better_minecraft.keep_inv_effect": "Inventory Save",
+      "block.better_minecraft.alunit_dungeon_block": "Alunit Dungeon Block",
+      "item.minecraft.potion.effect.inventory_save": "Potion of Inventory Save",
+      "item.better_minecraft.alunit": "Alunit",
+      "item.better_minecraft.actinium_armor_helmet": "Actinium Helmet",
+      "item.better_minecraft.reinforced_alunit_pickaxe": "Reinforced Alunit Pickaxe",
+      "item.better_minecraft.alunit_armor_leggings": "Alunit Leggings",
+      "block.better_minecraft.alunit_enriched_stone": "Alunit Enriched Stone",
+      "item.better_minecraft.actinium_armor_chestplate": "Actinium Chestplate",
+      "item.better_minecraft.actinium_boss_ranged_item": "Actinium Boss Ranged Item",
+      "entity.better_minecraft.actinium_boss": "Actinium Ghost",
+      "item.better_minecraft.mysterious_brewing_item": "Mysterious Brewing Item",
+      "advancements.mythical_alunit_lands_advancement.title": "Wait, there is another dimension?",
+      "item.better_minecraft.actinium_armor_boots": "Actinium Boots",
+      "item.better_minecraft.invis_projectile": "Invis Projectile",
+      "item.better_minecraft.alunit_pickaxe": "Alunit Pickaxe",
+      "item.better_minecraft.actinium_armor_leggings": "Actinium Leggings",
+      "item.better_minecraft.alunit_armor_helmet": "Alunit Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "better_minecraft",
+    "modName": "Better Minecraft",
+    "version": "1.0.0",
+    "description": "Makes Minecraft better and adds a lot of endgame content.",
+    "author": "Tleffer, NeviKannsHalt",
+    "websiteURL": "https://curseforge.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Better Minecraft - Tleffer, NeviKannsHalt",
+    "modElementsPackage": "net.tleffer.betterminecraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200112711
+}

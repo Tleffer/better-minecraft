@@ -1,0 +1,46 @@
+{
+  "_fv": 25,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:AlunitHighLands"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:AlunitEnrichedStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -1620924,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:AlunitBlock"
+    },
+    "portalParticles": {
+      "value": "CRIMSON_SPORE"
+    },
+    "portalLuminance": 5,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Alunit Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "alunit_f_n_s",
+    "portalTexture": "alunit_portal",
+    "enablePortal": true
+  }
+}

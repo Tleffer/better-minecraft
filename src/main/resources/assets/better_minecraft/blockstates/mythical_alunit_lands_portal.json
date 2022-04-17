@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "better_minecraft:block/mythical_alunit_lands_portal_ew"
+    },
+    "axis=x": {
+      "model": "better_minecraft:block/mythical_alunit_lands_portal_ns"
+    }
+  }
+}

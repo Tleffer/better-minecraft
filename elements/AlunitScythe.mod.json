@@ -1,0 +1,39 @@
+{
+  "_fv": 25,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "alunit_scythe",
+    "customModelName": "Normal",
+    "name": "Alunit Scythe",
+    "specialInfo": [
+      "§2Uses Alunit Bullets"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:AlunitBullet"
+    },
+    "shootConstantly": true,
+    "usageCount": 527,
+    "actionSound": {
+      "value": "item.shield.block"
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:AlunitBlock"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

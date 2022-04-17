@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "better_minecraft:alunit"
+    },
+    "1": {
+      "item": "better_minecraft:alunit"
+    },
+    "2": {
+      "item": "better_minecraft:alunit"
+    },
+    "3": {
+      "item": "better_minecraft:alunit"
+    },
+    "4": {
+      "item": "better_minecraft:alunit"
+    },
+    "5": {
+      "item": "better_minecraft:alunit"
+    },
+    "6": {
+      "item": "better_minecraft:alunit"
+    },
+    "7": {
+      "item": "better_minecraft:alunit"
+    },
+    "8": {
+      "item": "better_minecraft:alunit"
+    }
+  },
+  "result": {
+    "item": "better_minecraft:alunit_block",
+    "count": 1
+  }
+}

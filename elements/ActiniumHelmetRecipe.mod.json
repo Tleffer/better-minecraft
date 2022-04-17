@@ -1,0 +1,46 @@
+{
+  "_fv": 25,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Actinium"
+      },
+      {
+        "value": "CUSTOM:ActiniumBlock"
+      },
+      {
+        "value": "CUSTOM:Actinium"
+      },
+      {
+        "value": "CUSTOM:Actinium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Actinium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ActiniumArmor.helmet"
+    },
+    "name": "actinium_helmet_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_minecraft:alunit_altar"
+    },
+    "title": {
+      "translate": "advancements.true_alunit_boss_adv.title"
+    },
+    "description": {
+      "translate": "advancements.true_alunit_boss_adv.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "true_alunit_boss_adv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "better_minecraft:alunit_zombie_boss"
+}

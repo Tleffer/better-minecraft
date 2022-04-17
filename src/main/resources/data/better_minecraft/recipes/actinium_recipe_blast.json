@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "better_minecraft:raw_actinium"
+  },
+  "result": {
+    "item": "better_minecraft:impure_actinium_ingot"
+  }
+}

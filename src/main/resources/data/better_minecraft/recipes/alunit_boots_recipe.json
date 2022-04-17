@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "better_minecraft:alunit_ingot"
+  },
+  "result": {
+    "item": "better_minecraft:alunit_armor_boots"
+  }
+}

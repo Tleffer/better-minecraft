@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:flint_and_steel"
+  },
+  "addition": {
+    "item": "better_minecraft:alunit_ingot"
+  },
+  "result": {
+    "item": "better_minecraft:mythical_alunit_lands"
+  }
+}

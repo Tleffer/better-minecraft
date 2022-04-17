@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "better_minecraft:block/alunit_altar"
+    },
+    "type=top": {
+      "model": "better_minecraft:block/alunit_altar_top"
+    },
+    "type=double": {
+      "model": "better_minecraft:block/alunit_altar_full"
+    }
+  }
+}

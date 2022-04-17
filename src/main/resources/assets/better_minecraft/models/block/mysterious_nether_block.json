@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "better_minecraft:blocks/nethermystery",
+    "up": "better_minecraft:blocks/nethermystery",
+    "north": "better_minecraft:blocks/nethermystery",
+    "east": "better_minecraft:blocks/nethermystery",
+    "south": "better_minecraft:blocks/nethermystery",
+    "west": "better_minecraft:blocks/nethermystery",
+    "particle": "better_minecraft:blocks/nethermystery"
+  }
+}

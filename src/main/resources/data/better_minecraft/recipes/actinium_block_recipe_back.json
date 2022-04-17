@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "better_minecraft:actinium_block"
+    }
+  ],
+  "result": {
+    "item": "better_minecraft:actinium",
+    "count": 9
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 25,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_BOOTS"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:AlunitIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:AlunitArmor.boots"
+    },
+    "name": "alunit_boots_recipe",
+    "namespace": "mod"
+  }
+}

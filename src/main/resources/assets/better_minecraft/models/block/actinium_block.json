@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "better_minecraft:blocks/actinium_block",
+    "particle": "better_minecraft:blocks/actinium_block"
+  }
+}

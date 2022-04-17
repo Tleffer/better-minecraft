@@ -1,0 +1,31 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "actinium_axe",
+    "customModelName": "Normal",
+    "name": "Actinium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 6,
+    "efficiency": 16.0,
+    "attackSpeed": 1.5,
+    "enchantability": 25,
+    "damageVsEntity": 21.0,
+    "usageCount": 3126,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Actinium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

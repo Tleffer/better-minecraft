@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "better_minecraft:alunit_sledgehammer"
+    },
+    {
+      "item": "better_minecraft:impure_actinium_ingot"
+    }
+  ],
+  "result": {
+    "item": "better_minecraft:actinium",
+    "count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "better_minecraft:actinium"
+    },
+    "1": {
+      "item": "better_minecraft:actinium"
+    },
+    "2": {
+      "item": "better_minecraft:actinium"
+    },
+    "3": {
+      "item": "better_minecraft:actinium_block"
+    },
+    "5": {
+      "item": "better_minecraft:actinium_block"
+    },
+    "6": {
+      "item": "better_minecraft:actinium"
+    },
+    "8": {
+      "item": "better_minecraft:actinium"
+    }
+  },
+  "result": {
+    "item": "better_minecraft:actinium_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 25,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Inventory Save",
+    "splashName": "Splash Potion of Inventory Save",
+    "lingeringName": "Lingering Potion of Inventory Save",
+    "arrowName": "Arrow of Inventory Save",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:KeepInvEffect"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

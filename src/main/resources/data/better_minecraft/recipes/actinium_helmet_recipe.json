@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "better_minecraft:actinium"
+    },
+    "1": {
+      "item": "better_minecraft:actinium_block"
+    },
+    "2": {
+      "item": "better_minecraft:actinium"
+    },
+    "3": {
+      "item": "better_minecraft:actinium"
+    },
+    "5": {
+      "item": "better_minecraft:actinium"
+    }
+  },
+  "result": {
+    "item": "better_minecraft:actinium_armor_helmet",
+    "count": 1
+  }
+}
