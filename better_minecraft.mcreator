@@ -1140,6 +1140,14 @@
         "eb": false,
         "ec": true
       }
+    },
+    {
+      "name": "ActiniumPearlRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "actinium_pearl_recipe"
     }
   ],
   "variable_elements": [

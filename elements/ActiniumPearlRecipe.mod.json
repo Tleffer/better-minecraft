@@ -1,0 +1,46 @@
+{
+  "_fv": 25,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Actinium"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "CUSTOM:Actinium"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "CUSTOM:ActiniumBlock"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "CUSTOM:Actinium"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "CUSTOM:Actinium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ActiniumPearl"
+    },
+    "name": "actinium_pearl_recipe",
+    "namespace": "mod"
+  }
+}

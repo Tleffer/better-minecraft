@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "better_minecraft:actinium"
+    },
+    "1": {
+      "item": "minecraft:end_stone"
+    },
+    "2": {
+      "item": "better_minecraft:actinium"
+    },
+    "3": {
+      "item": "minecraft:end_stone"
+    },
+    "4": {
+      "item": "better_minecraft:actinium_block"
+    },
+    "5": {
+      "item": "minecraft:end_stone"
+    },
+    "6": {
+      "item": "better_minecraft:actinium"
+    },
+    "7": {
+      "item": "minecraft:end_stone"
+    },
+    "8": {
+      "item": "better_minecraft:actinium"
+    }
+  },
+  "result": {
+    "item": "better_minecraft:actinium_pearl",
+    "count": 2
+  }
+}
